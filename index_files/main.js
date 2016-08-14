@@ -12,7 +12,7 @@ $('#addplayer').click(function(){
                   
 $('#create').click(function(){
     $('#form_container').slideUp(200);
-    $.getScript('http://localhost:8000/index_files/fbsqaures.js');
+    $.getScript('./index_files/fbsqaures.js');
 
 });
                   
